@@ -1,4 +1,4 @@
-##Friend Function
+## Friend Function
 ```cpp
 #include<iostream>
 using namespace std;
@@ -54,7 +54,7 @@ int main(){
 */
 ```
 
-##Friend class
+## Friend class
 ```cpp
 #include <iostream>
 using namespace std;
