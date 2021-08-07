@@ -143,3 +143,5 @@ int main(){
 }
 
 ```
+## Destructor
+Destructor is called that many times as there are number of objects.
