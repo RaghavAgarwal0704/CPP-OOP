@@ -122,7 +122,7 @@ int main()
 ```
 
 ## Friend function of two classes
-```
+```cpp
 #include<iostream>
 using namespace std;
 class c2;
