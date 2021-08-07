@@ -1,4 +1,4 @@
-## Default constructor
+## Default Constructor
 ```cpp
 #include <iostream>
 using namespace std;
@@ -52,3 +52,46 @@ int main()
 ```
 
 We can also call a constructor manually--> Complex();
+
+## Parameterized Constructor
+If no constructor provided--> compiler itself provides a default constructor but if a parameterized constructor created then compiler won't provide default--> no error but if you want to call the default then first make it.
+
+```cpp
+#include<iostream>
+using namespace std;
+
+
+class Complex
+{
+    int a, b;
+
+public:
+    Complex(int, int); // Constructor declaration
+
+    void printNumber()
+    {
+        cout << "Your number is " << a << " + " << b << "i" << endl;
+    }
+};
+
+Complex ::Complex(int x, int y) // ----> This is a parameterized constructor as it takes 2 parameters
+{
+    a = x;
+    b = y;
+    // cout<<"Hello world";
+}
+
+int main(){
+    // Implicit call
+    Complex a(4, 6);
+    a.printNumber();
+
+    // Explicit call
+    Complex b = Complex(5, 7);
+    b.printNumber();
+
+    return 0;
+}
+
+```
+
