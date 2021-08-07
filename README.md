@@ -4,4 +4,4 @@ Use this repo for last minute revision :bookmark_tabs: before going for the inte
 
 All the best :thumbsup:
 
-PS: Code Credit [@CodeWithHarry](https://github.com/CodeWithHarry) :fire:
+PS: Code Credits [@CodeWithHarry](https://github.com/CodeWithHarry) :fire::fire:
