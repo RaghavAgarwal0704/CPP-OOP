@@ -372,3 +372,4 @@ int main(){
     return 0;
 }
 ```
+### Virtual Base class--> virtual(hybrid) inheritance
